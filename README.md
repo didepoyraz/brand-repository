@@ -58,3 +58,7 @@ fashion/
 ├── templates/
 │   └── index.html
 ```
+
+## To-Do
+
+- Add functionality for dynamically adding a new favorite brand
