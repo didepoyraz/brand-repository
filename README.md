@@ -1,4 +1,4 @@
-# Simple Brand Repository
+# Brand Repository
 
 A stylish dashboard to browse and preview all your favorite fashion brand websites in one place. 📍️
 
