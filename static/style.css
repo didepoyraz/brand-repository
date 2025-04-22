@@ -1,0 +1,39 @@
+
+body {
+    font-family: sans-serif;
+    background-image: url("/static/background.jpeg"); /* Replace with your image name */
+    background-size: cover;          /* Makes it fill the screen */
+    background-repeat: no-repeat;    /* Prevents repeating tiles */
+    background-position: center;     /* Centers the image */
+    background-attachment: fixed;    /* Keeps image fixed while scrolling */
+    color: #fff;                     /* Optional: makes text white for better contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+
+.brand-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.brand-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    width: 300px;
+    padding: 10px;
+    transition: transform 0.2s;
+}
+
+.brand-card:hover {
+    transform: scale(1.05);
+}
+
+.brand-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}

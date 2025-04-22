@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Brand Feed</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+    <h1>🧚‍♀️ Favorite Clothing Brands 🧚‍♀️</h1>
+    <div class="brand-grid">
+        {% for brand in brands %}
+            <div class="brand-card">
+                <a href="{{ brand.url }}" target="_blank">
+                    <img src="{{ brand.screenshot_url }}" alt="{{ brand.name }}">
+                    <p>{{ brand.name }}</p>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
